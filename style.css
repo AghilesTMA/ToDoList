@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Fredoka:wght@300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: "Poppins",cursive;
+}
+body{
+    background-color:#F5EFE7;
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.taskInput{ 
+    background-color: #D8C4B6;
+    width: 80%;
+    height: 100px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+.taskInput>input{
+    width: 70%;
+    border: none;
+    height: 60%;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 1.2rem;
+}
+.taskInput>button{
+    width: 20%;
+    height: 60%;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 500;
+    background-color: #4F709C;
+    color: white;
+}
+.taskInput>button:hover{
+    filter: brightness(110%);
+}
+.taskInput>button:active{
+    scale: 90%;
+}
+.taskbar{
+    background-color: #D8C4B6;
+    width: 80%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 15px;
+    gap: 20px;
+}
+.taskcard{
+    display: flex;
+    width: 95%;
+    height: 50px;
+    background-color: white;
+    border-radius: 15px;
+    justify-content: space-between;
+    padding: 5px 15px;
+    align-items: center;
+
+}
+.taskcard>button{
+    width: 15%;
+    height: 90%;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #4F709C;
+    color: white;
+}
+.taskcard>button:hover{
+    filter: brightness(110%);
+}
+.taskcard>button:active{
+    scale: 90%;
+}
+.delAll{
+    position: fixed;
+    bottom: 5%;
+    right: 2.5%;
+    width: 120px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color: #4F709C;
+    color: white;
+}
+.delAll:hover{
+    filter: brightness(110%);
+}
+.delAll:active{
+    scale: 90%;
+}
