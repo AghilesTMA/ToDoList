@@ -1,2 +1,2 @@
 # ToDoList
-To do list using local storage
+To do list using local storage.
