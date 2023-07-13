@@ -1,4 +1,3 @@
-
 function isDigit(char){
     return !isNaN(parseInt(char));
 }
